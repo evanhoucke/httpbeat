@@ -3,7 +3,7 @@ FROM alpine
 ENV CONSOLE=true
 ENV ES_HOST=localhost
 ENV ES_PORT=9200
-ENV httpbeat_version=4.0.0
+ENV httpbeat_version=4.1.0
 
 RUN mkdir -p /opt && \
   mkdir -p /opt/beats
